@@ -6,12 +6,28 @@
 // with ten elements where elements are equal to their index multiplied by 2.
 // Store the result and display it on the console with `console.log(<array name>)`
 
+let array_times_2 = new Array(10)
+
+for (let i=0;i<array_times_2.length;i++){
+  let value = i*2;
+  array_times_2[i] = value;
+}
+
+console.log(array_times_2)
 
 // Lab 2
 
 // Assign `20` to the element at `length+1`.
+array_times_2[array_times_2.length+1] = 20
+
 
 // Access the 3rd element from the end of an array length of 5.
+
+for (i=0;i<=3;i++) {
+  console.log(array_times_2[array_times_2.length-(3+i)])
+}
+
+//use slice ^ for above function
 
 // Access element 9 for a length of 5 elements.
 
